@@ -12,8 +12,8 @@ while True:
     kernel=np.ones((1,4),np.float32)
     erosion=cv2.erode(fgmask,kernel,iterations=1)
     #dilation=cv2.dilate(fgmask,kernel,iterations=1)
-    cv2.imshow('original',frame)
-    cv2.imshow('fg',fgmask)
+    #cv2.imshow('original',frame)
+    #cv2.imshow('fg',fgmask)
     cv2.imshow('erosion',erosion)
     #cv2.imshow('dilation',dilation)
     
